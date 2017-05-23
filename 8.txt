@@ -1,0 +1,22 @@
+<head "Vıbìr jako v katalogu" 30>
+	Na konci minulé lekce jste se mohli setkat s zatím nejtìšími úkoly, které Vám pravdìpodobnì daly chvíli práce. 
+Pøi návrhování domù nás ale vìtšinou takové malièkosti jako tvar nádobí pøíliš nezajímají. Vìtšinou je do modelu 
+umisujeme pouze jako dekoraci a bylo by proto zbyteèné takovou malièkostí ztrácet hodiny cenného èasu. I pro tento 
+problém má SketchUp jednoduché øešení - 3D Warehouse. /n
+	3D Warehouse je oznaèení pro online prostøedí, na kterém si SketchUp komunita sdílí své modely. Nìkteøí se 
+chtìjí jenom pochlubit, nìkteøí inspirovat a jiní pomoct ostatním. A je to s nimi jakkoliv, poskytli svoje 
+modely pro pouití komukoliv, kdo si je stáhne. Modelù k dostání jsou miliony a pøi vyhledávání tak mùeme 
+bıt velmi konkrétní v tom, co hledáme. /n
+	Model si proto mùeme lehce vyzdobit. Pamatujte, èím víc detailù, tím lépe vısledek vypadá. A kdy u budete mít 
+svùj model zcela vybaven, mùete si po nìm udìlat virtuální procházku. SketchUp toti obsahuje nástroj Walk, kterı 
+nám umoní vidìt prostor pøímo tak, jak jej uvidíme ve skuteènosti. Dokonce má parametr Eye Height, kterı Vám umoní 
+vidìt prostor ještì pøesnìji. Jedná se o koneènou zkoušku Vašich modelù, pøi které zjistíte, jak se Vám podaøilo pracovat 
+s rozmístìním nábytku a velikostí jednotlivıch pokojù. /n
+	Walk naleznete na panelu nástrojù (<img /view/img/content/p8/Walk.jpg 20 21>). Zvolíte jej v místì, kde chcete virtuální 
+procházku zaèít, zadáte vıšku, v jaké chcete, aby Vaše virtuální oèi byly a potvrdíte klávesou Enter. Dále stisknìte 
+a drte levé tlaèítko myši pro pohyb nebo stisknìte a drte koleèko myši pro otáèení na místì. /n
+	Zde tento kurz konèí. Doufám, e jste se alespoò nìco nauèili. Minimálnì já ano. 
+/praxe/
+	Vybav svùj model domu nábytkem a pøiprav jeho prohlídku.
+/spoiler/
+/qa/

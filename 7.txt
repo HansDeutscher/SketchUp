@@ -1,0 +1,39 @@
+<head "Docela obyèejnı talíø" 30>
+	Touto dobou jsme si ji ukázali vìtšinu nástrojù, které nám SketchUp nabízí. Zatím jsme v teoretickıch èástech 
+neznímili pouze Paint Bucket tool, ale v nápovìdì jste se s ním u setkat mohli v lekci 5. Sice toho u umíme 
+hodnì a spoustu vìcí vymodelujeme bez problémù, ale stále jsme limitováni kvádry a popøípadì krunicemi. Zajímavìjších 
+tvarù jako tøeba elipsy bychom byli schopni docílit také, ale museli bychom správnì kombinovat hned nìkolik nástrojù. 
+Pøišel proto èas opustit to, co nám nabízí SketchUp v základu a vylepšit si ho nìjakım šikovnım rozšíøením, které 
+nám pomùe splnit slib z minule - docela obyèejnı talíø. /n
+	Rozšíøení jsou jedna z vìcí, bez které se neobejde nikdo, kdo SketchUp pouívá na profesionální úrovni. Náš cíl 
+sice není stát se profesionály, ale ukázat Vám tuto tváø SketchUpu povauji za nezbytné. Komunita okolo SketchUpu vytvoøila 
+nespoèet rùznıch rozšíøení, které zvládnou všechno od vyhlazování, pøes generování terénu a po zrcadla. Kdykoliv 
+kdokoliv vyvine rozšíøení, které se ukáe bıt uiteènım a bezpeènım k pouití, zaøadí jej SketchUp do svého Extension 
+Warehouse (naleznete ve Window - Extension Warehouse). My se ale budeme dret pøi zemi a vystaèíme si s rozšíøením Bezier 
+Curve tool. Toto rozšíøení pochází pøímo od vıvojáøského tımu SketchUpu a umoòuje uivateli pouít Bézierovy køivky. /n
+	Bézierovy køivky jsou v poèítaèové grafice vyuívány velmi hojnì, ale jejich matematická podstata dosahuje daleko 
+za rámec tohoto kurzu. Pro nás je dùleité pouze vìdìt, e budeme vdy potøebovat poèáteèní (P0) a koneènı bod (P3) 
+a k tomu dva další body (P1 a P2), které budou urèovat prohnutí køivky. Pøikládám obrázek ilustrující postup, podle 
+kterého je taková køivka získána.
+<icn /view/img/content/p7/Bezier_cubic_anim.gif 290 120 Bézierova køivka kvadratického øádu>
+	Vrame se k talíøi. Pouijeme stejnı pøístup, jako kdy jsme vytváøeli válce a kuely v lekci 4. Pomocí Bezier 
+Curve tool vytvoøíme pùlku prùøezu talíøe a otoèíme s ním kolem dokola. Kvalita talíøe se odvíjí od peèlivosti, 
+kterou mu vìnujeme.
+<icn /view/img/content/p7/PlateSkeleton.jpg 1000 500 Polovièní prùøez talíøem>
+	Po pouití Follow Me tool s krunicí získáme náš tak dlouho omílanı talíø. Dost moná Vám na chvíli pøestal 
+SketchUp odpovídat. Pokud ne, máte silnı stroj. Pokud ano, dùvod je prostı. Kdy jsme podobnì otáèeli obdélníkem, 
+tvoøili jsme sice komplikovanı tvar, ale nic v porovnání s tím, co tvoøíme nyní. Tentokrát je toti potøeba k popsání 
+tohoto tvaru mnohem více menších ploch. Pokud si ještì pamatujete, ze zaèátku jsem se zmiòoval o tom, e veškerá 
+poèítaèová grafika vykresluje sloité objekty pomocí malıch ploch. V pøípadì našeho talíøe se jedná o tisíce a 
+vygenerovat je dá poèítaèi zabrat. Pøesvìdèit se o komplexnosti našeho konkrétního objektu mùeme po zviditelnìní 
+skryté geometrie (View - Hidden Geometry). SketchUp pøed námi toti netají, z èeho se objekty skládají.
+<icn /view/img/content/p7/Plate.gif 1000 500 Skrytá geometrie talíøe>
+	Díky správné kombinaci nástrojù dokáeme v tuhle chvíli vytvoøit témìø cokoliv. Pokud na to máme dost silné nervy 
+a jsme dostateènì trpìliví. Pøíštì se ale podíváme na zpùsob, jak si práci ulehèit o celé hodiny. /n
+/praxe/
+	A) Vytvoø talíø, sklenici a líci! /n
+	B) Vymodeluj lomenı oblouk, jakı znáš z gotické architektury.
+/spoiler/
+<vid /view/vid/Goblet.mp4 1000 480 Sklenice>
+<vid /view/vid/líce.mp4 1000 480 Pokus o líci>
+/qa/

@@ -1,0 +1,102 @@
+<head "Rotaèní tìlesa" 30>
+	Tentokrát opustíme svìt obdélníkù, kvádrù a domù a podíváme se do svìta zajímavìjších, 
+oblejších tvarù. Podíváme se na zoubek kružnicím, kruhùm, válcùm, kuželùm a jiným rotaèním 
+tìlesùm. /n
+	Zaènìme od nejjednodušího oblého tvaru, který SketchUp zná. Je to samozøejmì kruh. 
+Kruh (angl. Circle) naleznete na panelu nástrojù (<img /view/img/content/p4/Circle.jpg 20 20>) 
+, nebo Draw - Shapes - Circle a nebo pod klávesovou zkratkou C. Jeho použití už Vám bude 
+nejspíš jasné, jelikož SketchUp na nás myslel a udìlal použití nástrojù co nejlehèí. 
+Není proto pøekvapením, že kruh vytvoøíme následovnì: /n
+	1. Klik do bodu, kde se bude nacházet støed kruhu /n
+	2. Pohyb myši | Zadání polomìru na klávesnici /n
+	3. Kliknutí pro potvrzení /n
+	Kruh pro nás má pøesto malé pøekvapení. Jak jsem již zmínil døíve, v poèítaèové grafice 
+se pracuje s plochami, které jsou vyhrazeny urèitými body a spojnicemi bodù. Tyto plochy 
+se chovají stejnì jako roviny v geometrii. Sdílí s nimi jednu zásadní vlastnost. Nemohou 
+být ohnuté, tzn. jsou dokonale rovné. Nejèastìjšími plochami, ze kterých se skládají tìlesa, 
+jsou trojúhelníky. Ale to zase odbíháme nìkam jinam ... /n
+	Co z toho vyplývá je, že veškeré oblé tvary jsou jen pouhá iluze. Ve skuteènosti se jedná 
+o spoustu menších ploch, které se postupnì sklánìjí. A jinak to není ani s kruhem/kružnicí. 
+Kružnice se ve SketchUpu v základním provedení skládá z 24 bodù a jejich spojnic, které 
+dohromady tvoøí rovnostranný dvacetiètyøstìn, který postaèí k oklamání lidského oka v menších 
+mìøítcích. /n
+	Pokud tedy budete chtít, aby Vaše kruhy, koule a jiné tvary založené na kružnici byly 
+hladší a blížily se více realitì, staèí udìlat následující: /n
+	1. Zvolíte Circle tool /n
+	2. Na klávesnici zadáte poèet stran /n
+	3. Kliknete do bodu, který se stane støedem kruhu /n
+	4. Pohyb myši | Zadání polomìru na klávesnici /n
+	5. Klinutí pro potvrzení /n
+	Bìhem druhého kroku budete opìt automaticky pøesmìrováni do políèka vpravo dole, které se 
+ale pro tentokrát pøejmenuje na Sides (<img /view/img/content/p4/Sides.jpg 243 24>). Ihned po 
+prvním kliknutí se ale zase vrátí k nám už známému "Measurements". /n
+	Kruh má ve SketchUpu vlastní referenèní bod, kterým je Center. Ten se zobrazuje ve støedu 
+kruhu kdykoliv SketchUp vyhodnotí, že jej hledáme. Pokud se jakýmkoliv nástrojem budete 
+pohybovat uvnitø kruhu, zobrazí se Vám v nìm bod. Když na nìj posunete kurzor, sám Vám øekne, 
+že je støedem nápisem Center. /n
+	Dalším nástrojem, který budeme potøebovat, je Follow Me tool. Follow Me (angl. následuj mì 
+najdete v Tools - Follow Me nebo na panelu nástrojù (<img /view/img/content/p4/FollowMe.jpg 20 20>). 
+Tento nástroj se používá pouze na plochy a potøebuje èáru, která jej povede. Funguje 
+podobnì jako Push/Pull, jenom zdánlivì zatáhne za plochu ve smìru dané pøímky. My si s jeho 
+pomocí vytvoøíme válec. /n
+	Zaèneme podstavou, kterou je v pøípadì válce kruh. Kolmo na nìj umístíme obdélník tak, aby 
+jedna jeho strana tvoøila polomìr kruhu:
+<icn /view/img/content/p4/ValecZaklad.jpg 1000 500 Kostra válce>
+	Kruh používám v tomto pøípadì stostranný, aby válec byl co nejhladší. Teï už chybí poslední 
+krok k válci. Zvolíme Follow tool, klikneme na plochu, kterou chceme "táhnout" a kurzorem 
+budeme opisovat kruh. Jak budeme pohybovat kurzorem, uvidíme, jak nám bude postupnì vznikat válec:
+<icn /view/img/content/p4/ValecProgress.gif 1000 500 Proces otáèení>
+	Když dokonèíme koleèko kolem válce, klikneme pro ukonèení otáèení. Pøi tomto ruèním postupu 
+otáèení se ale èasto stává, že "zavadíte cestou" o jinou pøímku a ta Vám rozhodí Váš tvar. V 
+takovém pøípadì se staèí vrátit kurzor zpìt. Obecnì nejbezpeènìjší cesta, jak otáèení provádìt, 
+je ukazovat kurzorem mimo model, SketchUp si tu pomocnou kružnici najde sám.
+<icn /view/img/content/p4/Valec.jpg 1000 500 Hotový válec> /n
+	Tento válec má teï pouze jedinou chybu. Chybí mu spodní podstava - z pùvodního kruhu nám 
+zbyla pouze podstava. Follow Me tool totiž odmaže plochu, po které se pohybuje. Nikoliv však 
+dané èáry, které jej vedou. Pro obnovení plochy staèí použít Line tool a udìlat uvnitø kružnice 
+jakoukoliv tìtivu. Tato tìtiva nám vytvoøí dvì nové plochy, po jedné na každé stranì. Tìtivu 
+poté mùžeme odmazat a zbude nám jedna nová plocha. Podobným zpùsobem se dá obnovit jakákoliv 
+plocha, ze které nám zbyly jenom její obvodové pøímky. /n
+	Jak jste si jistì všiml, vytváøel jsem obdélník, který musel být kolmý na podstavu. To 
+nemusí být vždy jednoduchý úkol. A možná jste už i objevili omezení Rectangle tool. Dokáže 
+vytváøet pouze takové pravoúhelníky, které jsou kolmé na jednu z os. Mnohem spolehlivìjším 
+nástrojem je Rotated Rectangle tool(<img /view/img/content/p8/RotatedRectangle.jpg 21 24>, 
+Draw - Shapes - Rotated Rectangle). Máte dvì možnosti, jak jej využít. Buï zvolíte tøi body, 
+kterými vymezíte budoucí pravoúhelník a nebo zvolíte dva a poté zadáte úhel a délku zbývající strany. 
+Vždy v tomto poøadí, na to nezapomínejte. /n
+	Dalším, na èem si ukážeme, jak Follow Me tool funguje, je koule. Tentokrát zaèneme od 
+pùlkruhu a kružnice, která bude reprezentovat hlavní kružnici budoucí koule. Hlavní kružnice koule 
+je mimochodem kružnice o nejvìtším možném obvodu v dané kouli.
+<icn /view/img/content/p4/KouleZaklad.jpg 1000 500 Kostra koule>
+	Tentokrát si ukážeme rychlejší a èasto spolehlivìjší zpùsob, jak pracovat s Follow Me. 
+Nejdøíve pomocí Select tool oznaèíme kružnici reprezentující hlavní kružnici budoucí koule. Poté 
+zvolím Follow Me tool a kliknu na plochu mého pùlkruhu. Follow Me tool právì zatáhl za plochu 
+ve smìru èáry tak, jak jsem to minule dìlal já ruènì. Tohle je výsledek:
+<icn /view/img/content/p4/Koule.jpg 1000 500 Hotová koule>
+	Follow Me tool ale nemusíte používat vždy jenom na otáèení plochami. Vodící pøímkou mùže být 
+jakákoliv pøímka, kterou si vyberete. Otázkou ale je, jestli bude výsledek vyhovovat Vašim 
+oèekáváním. Ukazuji extrémní pøípad, kdy byla vodící pøímka nakreslena pomocí Free Hand tool. 
+<icn /view/img/content/p4/FreeHandFollow.gif 1000 500 Vodící pøímka nemusí být vždy kruh>
+	Pøíštì se opìt vrátíme k domùm.
+/praxe/
+	A) Vytvoø kouli o polomìru 1m! /n
+<icn /view/img/content/p4/KoulePractise.jpg 1000 500 Pøedloha koule> /n
+	B) Vytvoø jehlan, jehož základnou je ètverec o stranì velikosti 1m a výšce 3m! /n
+<icn /view/img/content/p4/JehlanPractise.jpg 1000 500 Pøedloha jehlanu>
+	C) Vytvoø torus! /n
+<icn /view/img/content/p4/Torus.jpg 1000 500 Torus - tentokrát otáèíme kružnicí> /n
+/spoiler/
+<vid /view/vid/Ball.mp4 1000 480 Jak na kouli?>
+	Zaènu kruhem. Opìt používám stostìnný, tentokrát s polomìrem 5m. Oznaèím vnitøní plochu a 
+stiskem klávesy Delete ji smažu. V tuhle chvíle mám tedy kružnici o polomìru 5m. Zvolím Line 
+tool, kliknu do støedu kružnice (pokud by Vám nešel støed najít, dotknìte se kurzorem kružnice a 
+støed by Vám mìla ukázat), pohnu myší smìrem nahoru (èára, kterou tvoøím, musí zmodrat, jedinì 
+tehdy smìøuje kolmo vzhùru) a zadám jí velikost 5m. Poté zopakuji totéž, jenom smìrem dolù. 
+Posledním krokem je 2 Point Arc (<img /view/img/content/p4/2PointArc.jpg 20 20>, Draw - Arcs - 
+2 Point Arc, A). Kliknu nejdøíve na jeden konec èáry, která mi vznikla uvnitø kružnice, poté na 
+druhý konec a nakonec na libovolný bod kružnice. Opìt se mi obnovil kruh uvnitø kružnice, 
+protože si našel pøímku uvnitø mého pùlkruhu vzniklého pomocí 2 Point Arc. Oznaèím kruh a 
+zase jej smažu. Zùstane mi pouze kružnice a pùlkruh.
+<vid /view/vid/Jehlan.mp4 1000 480 Ètyøboký jehlan>
+<vid /view/vid/Torus.mp4 1000 480 Torus>
+/qa/

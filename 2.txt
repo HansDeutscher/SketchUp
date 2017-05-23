@@ -1,0 +1,55 @@
+<head "Domeèek ala kvádr a jehlan" 30>
+	Prvním objektem, který si spoleènì vytvoøíme, bude nejjednodušší model domu. Budeme k tomu 
+potøebovat pár základních nástrojù, na kterých si ukážeme, jak jednoduché je tvoøit 3D objekty. /n
+	Ze všeho nejdøív budeme potøebovat pùdorys budoucího domu. Ten bude pøedstavovat obyèejný 
+obdélník. Ten se ve SketchUpu tvoøí pomocí nástroje Rectangle (angl. obdélník). Ten mùžete najít 
+na panelu nástrojù (<img /view/img/content/p2/Rectangle.jpg 20 20>), nebo Draw - Shapes - Rectangle 
+a nebo pod klávesovou zkratkou R. Klávesové zkratky jsou ve SketchUpu velmi èastým pomocníkem a 
+hodnì brzy si na nì zvyknete. Nejèastìji se jedná o první písmeno z názvu daného nástroje. /n
+	Vytvoøit obdélník obnáší tøi kroky: /n
+		1. Kliknutí pro zahájení /n
+		2. Pohyb myši /n
+		3. Kliknutí pro potvrzení /n
+	Vytvoøili jsme tak ètyøi úseèky reprezentující obvod obdélníka a jeho vnitøní plochu. Plochy jsou 
+v 3D modelování velmi dùležitým prvkem. Všechno, co v 3D modelování vznikne, je pouze souborem 
+mnoha ploch. Body a pøímky slouží pouze k vymezení daných ploch. Pro nás budou ale dùležité z jiného 
+dùvodu. SketchUp nám totiž ušetøil spoustu práce pøi pøecházení z 2D nákresu do 3D. Používáme k tomu 
+funkci Push/Pull, která nám dovoluje zdánlivì "zatáhnout" za plochu a vytáhnout jí z 2D do 3D. To 
+znamená, že z obdélníka nám dovolí vytvoøit kvádr. /n
+	Nástroj naleznete opìt na svém panelu nástrojù (<img /view/img/content/p2/PushPull.jpg 20 20>), nebo 
+Tool - Push/Pull a pod klávesovou zkratkou P. /n
+	Použití Push/Pull je zcela primitivní: /n
+		1. Kliknutí na plochu /n
+		2. Pohyb myši /n
+		3. Kliknutí pro potvrzení
+<icn /view/img/content/p2/PushPull.gif 1000 500 Push/Pull tool použitý na plochu>
+	Našemu primitivnímu domeèku teï dodìláme støechu. Zaèneme opìt v 2D. Na vrchní plochu našeho 
+kvádru-domu nakreslíme úhlopøíèky. K tomu využijeme Line tool (angl. èára). Naleznete jej v Draw - Lines - Line, 
+na panelu nástrojù (<img /view/img/content/p2/Line.jpg 20 20>) a nebo pod klávesovou zkratkou L. /n
+	Nakreslit èáru má pouze dva kroky: /n
+		1. Kliknutí do poèáteèního bodu /n
+		2. Kliknutí do koneèného bodu /n
+	V tuhle chvíli mi vznikl uprostøed v prùseèíku obou úhlopøíèek bod. Ukážeme si na nìm, jak pobyhovat 
+body a plochami. Využijeme k tomu Move tool, který najdete v Tools - Move, na panelu nástojù (<img /view/img/content/p2/Move.jpg 20 20>) 
+a nebo pod klávesovou zkratkou M. /n
+	Move tool použijeme následovnì: /n
+		1. Kliknutí na bod/plochu /n
+		2. Pohyb myši /n
+		3. Kliknutí pro potvrzení /n
+	Výsledek této akce vypadá takto:
+<icn /view/img/content/p2/MoveSample.jpg 1000 500 Støecha ala jehlan>
+	Povšimnìte si modré pøerušované èáry a poznámky "On Blue Axis". Toto nás informuje o tom, že se pohybujeme 
+prostorem kolmo vzhùru. Pøi manipulaci v prostoru je vždy dùležité ujistit se, po které ose se pohybujeme. /n
+	Hlavním rozdílem mezi Push/Pull a Move je povaha jejich pohybu. Push/Pull vždy "vytáhne" plochu 
+kolmo na ní a pohybuje jí pouze ve smìru kolmice. Move tool nám dovoluje pohyb kterýmkoliv smìrem. 
+Push/Pull navíc pùsobí pouze na plochy, Move se dá použít na cokoliv. Ale obyèejnì se používá pouze k 
+pøesunu prvkù v prostoru. /n
+	V pøíští lekci se podíváme, jak si vede náš model na poli velikostí a jak je mìøit.
+ /praxe/
+ 	A)	Vymodelujte si dùm, který byl tvoøen bìhem teorie této lekce. (jehlan na kvádru) /n
+ 	B)	Zkuste vymodelovat schody! Rozmìry a proporce neuvažujte.
+ /spoiler/
+ <vid /view/vid/PushPullHouse.mp4 1000 480 Návod pro domoèek ala jehlan na kvádru>
+ <vid /view/vid/Stairs.mp4 1000 480 Jak na schody a "healing the surface">
+/qa/
+ 

@@ -1,0 +1,82 @@
+<head "Mìøení" 30>
+	Je na èase podívat se na rozmìry, vztahy a referenèní body ve SketchUpu. Žádný použitelný model se bez 
+znalosti tìchto vìcí snad ani vytvoøit nedá. /n
+	Jelikož jsme v minulé lekci modelovali bez použití zadávání velikostí, jsou naše modely nejspíš mìøítkem 
+silnì mimo realitu. (Pokud jste již políèko velikostí neobjevili.) Zjistíme si teï velikosti našich modelù. 
+K tomu využijeme Tape Tool (angl. páska). Naleznete jej v Tools - Tape Measure, pod tlaèítkovou zkratkou T, 
+nebo na panelu nástrojù (<img /view/img/content/p3/Tape.jpg 20 20>). Používá se zcela primitivnì: /n
+	1.	Kliknutí na bod A /n
+	2.	Kliknutí na bod B /n
+	Vzdálenost mezi tìmito dvìma body se zobrazí buï pøímo vedle kurzoru, nebo v pravém dolním rohu, v políèku 
+Measurements (<img /view/img/content/p3/Measurements.jpg 300 26>). Stìna domu z minulé lekce tak mìøí bez mála 108 m 
+bez støechy. /n
+	Ukážeme si teï základní referenèní bod. Midpoint. Jak už název napovídá, jedná se o bod, který se nachází 
+pøesnì uprostøed. Tento bod se ale používá pouze u pøímek. Jelikož je ale každá plocha ohranièená pøímkami, 
+není tìžké najít i její prostøedek. /n
+	Midpoint vypadá takto: <img /view/img/content/p3/Midpoint.jpg 10 10>. Zobrazí se nám kdykoliv, když se k nìmu 
+pøiblížíme nìjakým nástrojem. My si to vyzkoušíme na Tape tool. Klikneme na spodní hranu domu a pohneme kurzorem 
+smìrem k jedné boèní hranì domu. Když si SketchUp všimne, že hledáme prostøedek dané pøímky - hrany, zobrazí nám 
+její midpoint. My na nìj klikneme a vytvoøíme tak pomocnou èáru.
+<icn /view/img/content/p3/MidpointExample.jpg 1000 500 Midpoint>
+	Pomocné èáry (angl. se nazývají Guides) mají stejnou funkci jako ty, které jste používali v geometrii. 
+Ve SktechUpu mají ale jednu zásadní výhodu. Dají se totiž všechny smazat stisknutím jediného tlaèítka (Edit - 
+Delete Guides) a nemusíme je tedy mazat jednu po druhé tak, jako bychom to dìlali na papíøe. Pomocnou pøímku 
+ale budete nejèastìji tvoøit v nìjaké vzdálenosti od jiné pøímky nebo bodu. V takovém pøípadì budete postupovat 
+následovnì: /n
+	1.	Zvolíte Tape tool /n
+	2.	Kliknete na pøímku, od níž chcete mìøit vzdálenost /n
+	3.	Pohnete kurzorem v daném smìru /n
+	4.	Na klávesnici zadáte kýženou vzdálenost /n
+	5.	Potvrdíte stisknutím klávesy Enter /n
+	Zadávání velikosti tímto zpùsobem je ve SketchUpu velmi èasté. Vìtšinou zvolíte nástroj, kliknete, naznaèíte 
+smìr, zadáte velikost a potvrdíte Enterem. Vzdálenost se zapisuje do nám už známého políèka Measurement. Do nìj 
+nás SktechUp pøesmìruje sám, pokud zjistí, že bìhem tvorby nìjakého tvaru stiskneme klávesu klávesnice. Dalším 
+zpùsobem, jak mùžeme vytvoøit pomocnou èáru, je dvojklik na jinou už existující èáru. /n
+	Ukázka pomocné èáry:
+<icn /view/img/content/p3/VodiciPrimka.jpg 1000 500 Pomocná pøímka>
+	Když jsme se už dotkli tématu mazání, rozvedeme i to. Jako v témìø každém programu, i zde funguje Ctrl+Z. Tato 
+klávesová zkratka vrátí náši poslední akci. Mùžeme se takhle vrátit tak zpátky, jak jen chceme. Oproti tomu 
+funguje Ctrl+Y. Tato zkratka nás posune o krok vpøed, pokud jsme se vraceli pomocí Ctrl+Z. /n
+	Tyto zkratky ale opravují poslední kroky. Pokud se chyba stala pøed 20 minutami, bylo by velmi nepøíjemné 
+ztratit všechnu práci, kterou jsme udìlali bìhem té doby. Proto existuje Eraser tool (angl. guma). Nalezenete jej 
+v Tool - Eraser, na panelu nástrojù (<img /view/img/content/p3/Eraser.jpg 20 20>) a nebo pod klávesovou zkratkou E. 
+Tuhle zkratku se nauèíte stoprocentnì. Použití Eraser tool je velmi intuitivní. Staèí zvolit tento nástroj, 
+stisknout levé tlaèítko a pøejet kurzorem pøes všechny èáry a body, kterých se chceme zbavit. /n
+	Poslední možností, jak nìkterý prvek smazat, je klávesa Delete (popø. Backspace). Ta smaže všechny prvky, které 
+byly oznaèeny pomocí Select tool (<img /view/img/content/p3/Select.jpg 20 20>). Tento zpùsob je zároveò jediný (spolu 
+s možností Erase po kliknutí pravým tlaèítkem na danou plochu), který dokáže smazat plochu, aniž by narušil 
+èáry, které ji ohranièují. /n
+	Dalším bodem, který pro nás bude dùležitý, je Intersection(<img /view/img/content/p3/Intersection.jpg 10 10>, 
+angl. prùseèík). Tento referenèní bod, jak už název napovídá, se nám zobrazí kdykoliv se kurzor nachází v místì, 
+kde se protínají dvì a více pøímek. Pokud se pøímky køíží, ale SketchUp prùseèík nehlásí, pøímky jsou mimobìžné a 
+rùznobìžné se jenom zdají. /n
+<icn /view/img/content/p3/IntersectionSample.jpg 1000 500 Intersection - prùseèík>
+	Další z referenèních bodù je On Face(<img /view/img/content/p3/OnFace.jpg 10 10>). Tento referenèní bod se 
+zobrazuje pouze bìhem samotného tvoøení a informuje nás o tom, že se momentálnì nacházíme v bodì, který je 
+souèástí dané plochy. Jedním z jeho využití, které nás zatím mùže zajímat, je jeho význam pro Push/Pull. 
+Obèas potøebujeme nìkteré plochy vytáhnout do shodné výšky(napø. cimbuøí hradù, nohy stolu apod.). V takovém 
+pøípadì bychom museli pokaždé zadávat velikost ruènì. Ale my nemusíme. Pokud použijeme Push/Pull tool na nìjakou 
+plochu a poté ukážeme kurzorem na jinou plochu, která se nachází v naší cílové výšce, SketchUp automaticky vyrovná 
+jejich výšky. Dùležité u toho ale je, abychom skuteènì ukazovali na onu plochu. A to nám potvrzuje bod On Face. /n
+<icn /view/img/content/p3/OnFaceSample.jpg 1000 500 On Face a cimbuøí>
+	Zároveò existuje bod On Edge(<img /view/img/content/p3/OnEdge.jpg 8 8>). Dìlá to samé jako On Face, jenom se 
+vztahuje k hranám. Vìtšinou Vám bude jedno, který z nich používáte. Na obrázku níže si ale všimnìte toho, že když 
+jsem "zatáhl" za menší plochu a dorazil s ní až na protìjší "zub"(na obrázku se nachází vpravo), nezùstala mezi nimi 
+žádná mezera.
+<icn /view/img/content/p3/OnEdgeSample.jpg 1000 500 On Edge a cimbuøí>
+	Posledním z referenèních bodù jsou Endpointy(<img /view/img/content/p3/Endpoint.jpg 10 10>). To jsou už 
+existující prùseèíky už existujících úseèek. Když zvolíte napø. Line tool(stejnì jako v animaci níže) a kurzorem 
+na krátký okamžik ukážete na nìkterý z Endpointù, bude Vás SketchUp pøi dalších pohybech navádìt ve smìru jedné 
+ze tøí os pøerušovanou èarou. O tom, že se stále pohybujeme správnì nás informuje hláškou "From Point".
+<icn /view/img/content/p3/FromPoint.gif 1000 500 Endpoint jako referenèní bod>
+	To by pro tuto lekci staèilo. Informací v ní bylo nejspíše dost na to, aby Vám zamotalo hlavu, ale vždy se k 
+ní mùžete vrátit a ujistit se.
+/praxe/
+	A)	Vytvoø otvory ve stìnách tvého domu, které budou reprezentovat okna a dveøe! /n
+	B)	Vymodeluj komín na støeše tvého modelu domu! /n
+	C)	Vymodeluj jednoduchý stùl!
+/spoiler/
+<vid /view/vid/Windows.mp4 1000 480 Pøidání oken a dveøí>
+<vid /view/vid/Chimney.mp4 1000 480 Jak na komín?>
+<vid /view/vid/Table.mp4 1000 480 Jednoduchý stùl>
+/qa/

@@ -1,0 +1,64 @@
+<head "Co u umíme?" 30>
+	Po krátké odboèce se opìt vracíme k domùm. Tentokrát se ale pokusíme zlepšit kvalitu našeho 
+modelu. Zaèneme znovu od zaèátku, ale vyuijeme toho, e u známe víc nástrojù a umíme bıt pøesní. 
+V nadcházejích lekcích se zamìøíme na konkrétní praktické vyuití na pøíkladech. /n
+	Prvním, co náš pùvodní pokus o dùm postrádal, byly zdi. Hlavnì jejich šíøka. Minule toti naše zdi 
+tvoøily pouze ètyøi 2D plochy. Tentokrát domu dopøejeme zdi s opravdovou šíøkou. K tomu vyuijeme Offset 
+tool (Tools - Offset, klávesa F, <img /view/img/content/p5/Offset.jpg 20 20>). Tento nástroj se pouívá na 
+plochy a odmìøí zadanou vzdálenost od všech okrajù plochy. /n
+	Pouití je opìt jednoduché: /n
+	1. Zvolíme Offset tool /n
+	2. Klikneme na plochu /n
+	3. Zadáme velikost /n
+	4. Potvrdíme klávesou Enter /n
+	Tohoto vyuijeme na náš pùdorys, kterı bude mít opìt tvar obdélníku (12mx8m). Øeknìme, e chceme, aby 
+zdi našeho domu byly 50cm silné. Tuto vzdálenost mùeme odmìøit buï smìrem dovnitø, nebo ven. Pokud 
+zvolíme Offset tool, klikneme na plochu, pohneme myší mimo ní a poté zadáme velikost, namìøí 
+se naše velikost smìrem ven. Kdybychom myší pohnuli dovnitø, odmìøí se smìrem dovnitø. /n
+	Ukázka na mém pùdorysu:
+<icn /view/img/content/p5/OffsetSample.jpg 1000 500 Vyuití Offset tool>
+	Nyní si pomocí Tape tool vymìøím místnosti a vstupní dveøe. Všechny potom narısuji pomocí Line 
+tool a nakonec odmau všechny pomocné èáry, které jsem potøeboval.
+<icn /view/img/content/p5/Layout.jpg 1000 500 Rozvrení domu>
+	Kdy u máme základní rozloení hotové, pouijeme Push/Pull tool a vztyèíme zdi. Ty jsou 
+samozøejmì poøád duté, protoe nic jako hmota ve SketchUpu neexisuje, ale model tak nabral na vìrohodnosti.
+<icn /view/img/content/p5/LayoutPushed.jpg 1000 500 Dùm se zdmi>
+	V dalším kroku si pøipravíme otvory ve zdech, do kterıch pozdìji pøidáme okna. Umístíme jich do modelu 
+hned nìkolik.
+<icn /view/img/content/p5/LayoutWindow.jpg 1000 500 Pøíprava otvorù pro okna>
+	Máme teï na našem modelu 5 míst pro shodná okna. Kdybychom mìli kadé okno modelovat zvláš, 
+strávili bychom tak zbyteènì pøíliš èasu. Vytvoøíme tedy radši pouze jedno okno, ze kterého vytvoøíme 
+komponent a rozkopírujeme ho do všech otvorù. Kvalita okna je úmìrná èasu, kterı mu vìnujeme. Pro nás je 
+ale dùleitìjší následující krok. Oznaèíme celı model okna prostøednictvím Select tool, klikneme na nìj 
+pravım tlaèítkem myši a zvolíme "Make Component...". Pro náš novı komponent musíme zvolit jméno a mùeme 
+mu pøidat i popisek (viz obrázek níe), kterı by nám pomohl v rozeznávání od jinıch pøípadnıch komponentù, které vytvoøíme. 
+Tìch toti obvykle bıvají celé desítky.
+<icn /view/img/content/p5/Window.jpg 1000 500 Náhled mého okna>
+	Komponenty jsou velmi uiteènım nástrojem, kterı nám SketchUp poskytuje. Jedná se o skupinu prvkù, 
+které vystupují jako jeden celek. Dají se tedy pøesouvat pomocí Move tool a neporuší ádnou svou proporci, 
+jenom svou polohu. Ještì zajímavìjší vlastností je ale jejich upravování. Pokud zkopírujete komponent a 
+budete jich tak mít ve svém modelu nìkolik shodnıch, máte monost je upravit všechny najednou. Pokud 
+nìco zmìníte v kterémkoli z nich, zmìní se i všechny ostatní. /n
+	Kopírování se ve SketchUpu provádí buï klasicky Ctrl+C -> Ctrl+V a nebo pomocí Move tool. Pokud chcete 
+získat kopii svého komponentu, zvolte Move tool, kliknìte nìkam na danı komponent a stisknìte klávesu Ctrl. 
+Pùvodní komponent zùstane na svém místì zatímco Vy budete pohybovat novou kopií toho pùvodního. /n
+	Pøesuneme tedy náše okno do otvoru, kterı je pro nìj urèenı a rozkopírujeme ho do tìch zbylıch. Bìhem toho se 
+ale setkáme s problémem. Oknem sice pohybovat pomocí Move tool mùeme, ale nemùeme ho otáèet. K tomu máme Rotate 
+tool (Tools - Rotate, klávesa Q, <img /view/img/content/p5/Rotate.jpg 20 20>). Rotate tool vdy otáèí prvkem kolem 
+osy kolmé k jeho umístìní. Pouití: /n
+	1. Klikneme na plochu /n
+	2. Kliknutím vybereme poèátek otáèení /n
+	3. Kliknutím vybereme konec otáèení | Zadáte poèet stupòù /n
+	Náš dùm tak získal okna. Pokud je budeme chtít kdykoliv v budoucnosti upravit, staèí dvakrát kliknout na 
+kterékoli z nich. Pøíštì se zamìøíme na další prvky, kterımi bychom ozvláštnili náš dùm a hlavnì se nauèili 
+pouívat pár novıch nástrojù a technik.
+<icn /view/img/content/p5/HouseWindows.jpg 1000 500 Dùm s okny>
+
+
+/praxe/
+	A) Vytvoøte si vlastní model podobnı tomu, kterı jste vidìli v mém návodu. /n
+	B) Pøidejte svému modelu dveøe.
+/spoiler/
+<vid /view/vid/Windows2.mp4 1000 480 Tvorba okna a jeho umístìní na místo>
+<vid /view/vid/HouseDoor.mp4 1000 480 Tvorba dveøí a jejich umístìní>
+/qa/

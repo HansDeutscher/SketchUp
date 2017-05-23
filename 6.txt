@@ -1,0 +1,51 @@
+<head "Práce v interiéru" 30>
+	Pamatujete si ještì na stùl z druhé lekce? Vybavíme jím náš dùm. Ke konci lekce se ještì stihneme podívat na vrstvy a 
+proè bychom je mìli pøi "stavbì" domu používat. /n
+	Prvním, co nás tedy zajímá je to, jak dostaneme náš model stolu z døívìjška do našeho souèasného, oddìleného 
+modelu domu. K tomu použijeme Import (File - Import...). Pøedpokládám, že dál už si poradíte na základì svých 
+zkušeností sami. Jenom si dovolím podotknout, že všechny modely ze SketchUpu jsou ve formátu .skp. Po importování 
+modelu se importovaný model stává samostatným novým komponentem nehledì na to, jestli v pùvodním modelu komponentem 
+byl. Opìt se ale potenciálnì setkáváme s problémem mìøítka.
+<icn /view/img/content/p6/Meritko.jpg 1000 500 Stùl ani neprojde dveømi!>
+	K úpravì velikosti využíváme Scale tool (Tools - Scale, klávesa S, <img /view/img/content/p6/Scale.jpg 25 25>). 
+Scale (angl. mìøítko) nám po kliknutí na komponent (funguje na jakýkoliv prvek modelu, nejen na komponenty) 
+zobrazí malé krychle v každém rohu, uprostøed každé strany a uprostøed každé stìny komponentu (viz obrázek níže). 
+Tyto krychle znázoròují možnosti manipulace s velikostí daného komponentu. Nás v tuto chvíli zajímí pouze krychle 
+v rozích (v obrázku níže jsou èervenì oznaèené). Když klikneme na nì, budeme mìnit mìøítko komponentu, aniž bychom u toho zmìnili pomìr stran. Zmìnu 
+mìøítka mùžeme zadat buï na klávesnici a nebo od oka pohybem myši.
+<icn /view/img/content/p6/ScaleUsage.jpg 1000 500 Využití Scale tool ke zmìnì velikosti komponentu>
+	Stùl už se sice dovnitø vešel, ale pršelo by nám na nìj, protože náš dùm zatím postrádá støechu. Než se do ní 
+ale pustíme, musíme si uvìdomit jednu vìc. Kdybychom teï náš dùm pøiklopili støechou, špatnì by se nám pracovalo 
+uvnitø. Už jenom dostat se dovnitø by bylo obtížné a modelovat v uzavøeném prostoru je ještì tìžší. Máme dvì 
+možnosti. Nejdøív mùžeme vybavit interiér a až potom pøidat støechu. To je nejjednodušší øešení, ale má malou vadu. 
+Vlastnì minimálnì dvì. Nejen že bychom pozdìji už jenom tìžko mohli mìnit interiér, ale nikdo by ho dokonce 
+nemìl možnost poøádnì vidìt. Pouze skrz okna, pokud jsou vùbec prùhledná. SketchUp nám ale nabízí øešení tohoto 
+problému - Layers (angl. vrstvy). Naleznete jej v Trays (angl. podnos). Jako Tray se ve SketchUpu oznaèuje okno 
+s nabídkou nástrojù, které se obvykle nachází pøi pravém okraji pracovní plochy (viz obrázek níže). Pokud jej 
+nevidíte a nebo jste jej zavøeli, dá se zapnout ve Window - Default Tray - Show Tray. Pro nás je dùležitá pouze 
+jeho èást týkající se Layers, proto se v Window - Default Tray pøesvìdète, že položka Layers je zaškrtnutá.
+<icn /view/img/content/p6/TraySample.jpg 1000 500 Default Tray a oddíl Layers>
+	Teï už k samotným vrstvám. Vrstva oznaèuje skupinu prvkù v modelu, které dohromady tvoøí jednu èást. V pøípadì 
+domù se tak nejèastìji jedná o jednotlivá patra a støechu. Dùvod, proè se modely takto rozdìlují do vrstev, je jejich 
+vlastnost viditelnosti. Pokud je vrstva oznaèena jako neviditelná, zmizí a nebude nijak interagovat s nièím, co 
+budeme dìlat. V našem pøípadì oznaèíme budoucí støechu jako samostatnou vrstvu a budeme ji moct kdykoliv 
+nechat zmizet, aby se nám lépe pracovalo. Tuto novou vrstvu vytvoøíme kliknutím na ikonu <img /view/img/content/p6/Plus.jpg 15 16> 
+v oddílu Layers v Default Tray. Viditelnost vrstev se urèuje v kolonce Visible v tomtéž místì. Všechno, co jsme zatím 
+vytvoøili náleží Layer0, protože jiná neexistovala. V tuhle chvíli ale existují dvì a to, ke které se to, co vytvoøíme, 
+pøiøadí, se øídí tím, která z vrstev je zaškrtnutá (<img /view/img/content/p6/LayerRoof.jpg 232 16>). Pokud ale 
+potøebujeme nìjaký už existující prvek pøiøadit k jiné vrstvì, než ve které je, musíme si pomoct pøes Layer Toolbar. 
+Tady se SketchUp ukázal nedomyšleným. Layer Toolbar zapnete ve View - Toolbars - Toolbars. Pokud pomocí Select tool 
+vyberete libovolný prvek modelu, v Layer Toolbar se zobrazí k jaké vrstvì tento prvek náleží. To zmìníte kliknutím 
+na toto políèko a výbìrem kýžené vrstvy (viz obrázek).
+<icn /view/img/content/p6/LayerChoice.jpg 714 376 Layer Toolbar a výbìr pøiøazené vrstvy>
+	Nyní už našemu vybavení nebude vadit, že venku prší. Pustíme se tedy do vybavování domu. Prvním, co nás ke 
+stolu napadne pøidat jsou židle. Ty pro nás nejsou žádným velkým oøíškem. Co ale takové talíøe na stùl? Kulaté je 
+sice udìlat umíme, ale rozhodnì nezvládneme napodobit jejich hloubku. K tomu budeme potøebovat nìjakou køivku. 
+A to bude tématem pøíští lekce.
+/praxe/
+	A) Umístìte do domu svùj stùl z døívìjška a ujistìte se, že jeho velikost sedí mìøítku domu. /n
+	B) Vytvoøte novou vrstvu, které pøiøadíte støechu, kterou vytvoøíte. /n
+	C) Pøidejte ke stolu dvì židle.
+/spoiler/
+<vid /view/vid/Roof.mp4 1000 480 Vrstva se støechou>
+/qa/

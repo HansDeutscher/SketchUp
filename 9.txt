@@ -1,0 +1,87 @@
+<head "Speciál: 3D tisk" 30>
+	Kdy Vám pøestane virtuální model staèit a chcete jej pøivést k ivotu, ale nemáte prostøedky k tomu, 
+abyste si svùj dùm postavili, máte díky boomu 3D tiskáren skvìlou pøíleitost získat alespoò miniaturu 
+svého modelu. Tiskáren je spousta druhù a liší se svımi monostmi v závislosti na pouité technologii, 
+materiálu, kvalitì modelu a schopnostech obsluhy samotné tiskárny. Tento speciál je vìnovanı tiskárnám 
+vyuívajícím technologii FDM (Fused Deposition Modeling, pokud si chcete zjistit více). Jedná se o 
+veøejnosti nejpøístupnìjší formu 3D tisku, ale skıtá i spoustu omezení. Shrnu zde tedy všechna pravidla, 
+která je nutné dodret, aby bylo vùbec moné provést samotné tisknutí modelu a dám Vám i pár doporuèení 
+ohlednì toho, jak docílit co nejvyšší kvality vısledného produktu. Je nutné dret se všech pravidel, 
+protoe ne se Váš model dostane do samotného procesu tisku, projde hned nìkolika dalšími programy, 
+které ho budou muset pøeloit a pøizpùsobit tzv. G kódu, kterému tiskárna rozumí.
+<head "Pravidla" 18>
+	Hned první pravidlo je pro naše úèely to nejzásadnìjší. Princip FDM nedovoluje tisknout ve vodorovné 
+rovinì bez dostateèné podpìry. Pro nás to znamená, e nemùeme vytisknout stropy pokojù, pokud je pokoj 
+více ne cca 1 milimetr širokı a dlouhı. Pokud byste takovı model chtìli tisknout, vytiskne se, ale ne tak, 
+jak byste èekali. Pøi pøekladu kódu pro tiskárnu budou vygenerovány podpìry do pokoje tak, aby tisk bez 
+problému probìhl (viz. obrázek 1 níe). Nejmenší úhel, kterı tiskárna zvládne, je 45°, ale stìny s takovım 
+sklonem si kromì podkrovních pokojù asi nedovedu pøedstavit.
+<icn /view/img/content/p9/Podpera.jpg 867 480 Obrázek 1: Ukázka podpìr vygenerovanıch uvnitø pokojù a pod pøesahy støechy.>
+	Druhé pravidlo je nejsloitìjší na provedení v praxi. Bez jeho dodrení tisk neprobìhne vùbec. Všechny 
+modely, které má tiskárny bıt schopná vytisknout, musí bıt "vodotìsné". Všechny stìny musí mít urèenou 
+tloušku a nesmí bıt nikde otevøené do okolí. SketchUp nám v tomto ohledu nenabízí ádnı zpùsob kontroly a 
+je tedy èistì na naší peèlivosti, zda-li se takovım pøípadùm vyvarujeme. Naše modely se však dají 
+zkontrolovat v jinıch programech, které jsou na 3D tisk specializované.
+<icn /view/img/content/p9/SectionCut.gif 1000 500 Obrázek 2: Prùøez vodotìsnım modelem.>
+	Jako tøetí pravidlo uvádím zbytky ploch uvnitø stìn. Uvnitø stìn by se nemìlo nacházet vùbec nic. Kadı 
+objekt by mìl bıt tvoøen pouze svım povrchem (a u jakkoliv sloitım). Èasto se stává, e nám na stìnách 
+zùstanou zbytky èar, které jsme potøebovali døíve. Tiskárnu by ale mohly zmást a proto je dobré "oèistit" 
+model pøed tím, ne ho pošleme dál.
+<icn /view/img/content/p9/InnerFace.jpg 1000 500 Obrázek 3: Prùøez. Plocha uvnitø stìn modelu.>
+	Abychom nezmátli tiskárnu, musíme dodret i ètvrté pravidlo - zarovnání nominál. Jak jste si ji jistì 
+všimli, kadá plocha má dvì strany. První je svìtlá a oznaèuje venkovní stranu - stranu, která ohranièuje 
+povrch modelu. Druhá strana je tmavší a oznaèuje vnitøní stranu. Pøi tisku bude prostor mezi dvìma vnitøními 
+stranami vyplnìn. /n
+	Páté pravidlo zakazuje vıskyt zdvojenıch ploch. To se ve SketchUpu stává ale pouze tehdy, pouijeme-li 
+komponenty. Jedná se o pøípady, kdy existují dvì plochy, které se navzájem prolínají. /n
+	Šesté pravidlo omezuje minimální šíøku jakékoliv stìny. Pøi tisknutí se pouívají nejèastìji extrudery 
+o prùmìru okolo 0,2mm. Cokoliv pod tuto šíøku je netisknutelné. Pokud ale pouijete takto tenké stìny, 
+ztrácí Váš model hodnì na odolnosti. Doporuèené šíøka je cca 2mm. /n
+	Sedmé pravidlo se tıká textur. By je vybarvenı model vzhlednìjší, pøi pøevodu by mohl zpùsobovat 
+nepøíjemnosti. Modely je nutné odeslat bez textur a ve formátu .stl. /n
+	K pravidlùm by to staèilo, teï se pøesuòme k zpùsobùm, jak se vyhnout problémùm. /n
+	Hned první pravidlo nám zasadilo krutou ránu pod pás, protoe pokud bychom pouili modely, které jsme 
+tvoøili doteï, bude celı vnitøek vyplnìn podpìrami, které, vzhledem k tomu, e je model v pøiklopen støechou, 
+nepùjdou nijak vyjmout. Nabízejí se nám proto tøi monosti:
+<head "1)Model udìlat plnı a naznaèit pouze celkovı tvar." 18>
+	Tato monost je nejsnazší a zabere nejmíò èasu. Vısledek ale není pøíliš uspokojivı. Støecha navíc nesmí 
+mít ádnı pøesah, nebo by vygenerované podpìry nejspíš pohltily vìtšinu stìn. Touto moností se dál 
+nebudu zabıvat, nebo nevyaduje ádné další znalosti kromì tìch, které se dají získat v prvních lekcích 
+tohoto kurzu, jeliko se jedná pouze o variaci na "domeèek ala jehlan na kvádru".
+<head "2)Model rozdìlit na dvì èásti (stìny+podlaha)+støecha." 18>
+	Pokud se rozhodnete zvolit tento pøístup, budete si moct dovolit do svého modelu zahrnout okna, která 
+skuteènì povedou do reálnıch místností, které budete moct vymezit stìnami pøesnì tak, jak je tomu ve skuteènıch 
+domech a budete moct vytvoøit i støechu s pøesahy, pokud bude støecha zespoda rovná. Omezení se ale vskutku 
+najdou. Ve stìnách se nesmí nacházet ádné vıkyvy ve vodorovném smìru. Typickım pøíkladem takového vıkyvu 
+je parapet (byl by monı, pokud by ze stìny vystupoval pod úhlem 45°). Vytisknutı model je moné si následnì 
+slepit a nebo ponechat na dva díly, abyste lépe vidìli dovnitø.
+<icn /view/img/content/p9/TwoParts.jpg 1000 500 Obrázek 4: Model rozdìlenı na dvì èásti.>
+<head "3)Model rozdìlit na jednotlivé stìny, podlahu a støechu." 18> 
+	Nejsloitìjší, ale potenciálnì nejlepší øešení je rozdìlit model na jednotlivé stìny, podlahu a støechu. 
+Pøi tomto postupu nebudou tolik znatelné jednotlivé vrstvy, po kterıch se model tisknul. Navíc Vám tento 
+zpùsob umoní mít v jednom ze stìny vıklenky vystupující i vstupující i pod úhlem 90°. Je ale nutné bıt velmi peèlivı a 
+hlídat si všechny rozmìry jak pøi modelování, tak pøi lepení.
+<icn /view/img/content/p9/Wall.jpg 1000 500 Obrázek 5: Jednotlivá stìna.>
+<head "Doporuèení" 18>
+	Nehledì na to, kterı z tìchto tøí postupù zvolíte, musíte mít zarovnané všechny plochy vnìjší stìnou ven, 
+vnitøní dovnitø. Stìny se dají otoèit kliknutím pravım tlaèítkem na danou plochu, kde vybereme Reverse Faces. 
+Plochy se dají hromadnì otáèet pomocí Orient Faces. Pøi hromadném otáèení ploch dojde k tomu, e všechny plochy, 
+které se dotıkají, se uspoøádají tak, aby "bílá sousedila s bílou a tmavá s tmavou". Pokud je tedy Váš model 
+vytvoøen správnì, mìly by se všechny otoèit stejnım smìrem. Pokud se stejnım smìrem neotoèí, nìkde je chyba. /n
+	Co se tıèe zdvojenıch ploch a komponentù - klidnì je vyuívejte, ale ne model konvertujete do formátu 
+.stl, všechny komponenty "explodujte" - pravé tlaèítko a Explode. SketchUp je zapisuje zvláš a jednalo by se 
+o obejkt v objektu, co by mohlo zpùsobit další potíe. /n
+	Co do rozmìrù, doporuèuji dodret tloušku stìn okolo 2 a 3mm. Model se musí vejít na podstavec, na 
+kterém se tiskne a proto mùe bıt tìsnì pøed tiskem zmenšen. Pøi tom se stìny Vašeho modelu ztìnèí a mohly by 
+ve vısledku bıt pøíliš tenké. Není doporuèováno ani modelovat nábytek a celkovì vıbavu domu, protoe by 
+vzhledem k mìøítku modelu byla pøíliš malá. A rozhodnì doporuèuji pøepnout si Template. Pokud vyuijete 
+3D Printing - Milimeters, získáte podporu jednotek do setin milimetru. /n
+	V obrázcích vıše mùete vidìt, e moje støechy splòovaly podmínku 45°. Tu musely ale splòovat pouze proto, e 
+byly všechny vymodelovány duté. Mnohem jednodušší a praktiètìjší je modelovat støechy plné. Nejen e ušetøíte spoustu 
+práce, ale ještì nebudete muset øešit jejich sklon, jeliko budou vyplnìny celé. /n
+	Teï u mi zbıvá jenom popøát Vám hodnì štìstí a pevné nervy. /n
+/praxe/
+	Tentokrát je veškeré cvièení èistì ve Vaší reii. Modelujte to, co byste si rádi nechali jako památku.
+/spoiler/
+	
+/qa/

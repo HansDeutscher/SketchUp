@@ -1,0 +1,53 @@
+<head "Co je to SketchUp?" 30>
+	SketchUp je program navržený pro architekty, strojní inženýry a vývojáøe 
+her nebo jiné skupiny lidí, které pracují s 3D modely. Nejèastìji bývá využíván 
+k návrhùm budov, interiérù, ale èasto i jednoduchých strojù nebo strojních designù. 
+SketchUp se stal velmi oblíbeným díky svým intuitivním postupùm a dostupnosti. 
+Licence SketchUp Make je totiž zcela zdarma, ale nepøináší nejmenší omezení v 
+modelování. Licence Pro už sice nìco stojí, ale svému uživateli poskytne nejen 
+pøístup k doprovodným progamùm Style Builder a LayOut, ale i víc možností 
+exportování svých modelù do jiných formátù. /n
+	Pøi spuštìní nás SketchUp pøivítá oknem "Welcome to SketchUp". V tomto 
+oknì nám SketchUp sám nabízí rùzné pøíruèky, informace a novinky, ale co je pro 
+nás dùležité, je záložka Template. V ní si vybíráme základní charakteristiku 
+našeho rozhraní. Jde hlavnì o to, v jakých jednotkách chceme zadávat velikosti 
+a k jakému využití je náš model urèen. V našem pøípadì budeme používat 
+Simple Template - Meters. Nyní spustíme SketchUp tlaèítkem Start using SketchUp 
+ve spodním pravém rohu okna. /n
+	Naèetlo se nám nové okno, tentokrát už rozhraní samotného SketchUpu. 
+Okno se skládá z "plátna" (plocha, ve které budeme vytváøet naše modely) a 
+ovládacích prvkù. Na plátnì vidíme tøi osy - èervenou (šíøka), zelenou (délka) 
+a modrou (výška). Dále se na plátnì nachází maskot. V závislosti na verzi 
+se mùže lišit, ale zpravidla je to lidská postava stojící vedle modré osy. /n
+	Na našem maskotovi si vyzkoušíme základní pohyb po plátnì. Koleèkem myši 
+se pøibližujeme a oddalujeme od bodu, na který kurzor ukazuje. Pokud koleèko 
+myši pøidržíme stisknuté a budeme myší pohybovat, budeme se otáèet kolem 
+daného bodu. Tøetím dùležitým pohybem je pøidržení klávesy Shift a koleèka myši, 
+tak docílíme pohybu ve smìru, kterým myší pohybujeme. Toto ovládání je sice 
+ze zaèátku matoucí, ale èasem si na nìj zvyknete.
+<head "A (S)ketchup?" 20>
+	(S)ketchup je výukový program, který by Vám mìl pomoct porozumìt základùm 
+ovládání SketchUpu a 3D modelování obecnì. Postupnì se bìhem 8 lekcí seznámíme 
+s vìtšinou nástrojù, které nám SketchUp nabízí. /n
+	Nyní se nacházíte v teoretické èásti první lekce. Každá lekce má tøi èásti. 
+První èást je vždy teorie a mìli byste se na ni zamìøit vždy jako na první. Právì 
+v teoretické èásti se budete dozvídat nejdùležitìjší informace. Ve druhé èásti(zvané praxe) 
+naleznete úkoly k daným lekcím, na kterých byste si mìli vyzkoušet, zda-li jste 
+pochopili, jak využít nové informace. Poslední èástí je spoiler. Jméno nebylo 
+zvoleno náhodnì. Spoilery nikdo nemá rád a stejnì tak by nemìl mít nikdo rád, 
+když za nìj nìkdo jiný øeší problémy. Obèas, když je ale problém pøíliš velký a 
+sami se s ním nedokážeme vyrovnat, pøistoupíme k pomoci zvenèí. /n
+/praxe/
+	Úkolù bude ke každé lekci pouze pár, ale jejich obtížnost se bude 
+stupòovat s tím, jak budete postupovat dál. A kdyby se Váš postup zastavil, 
+vždy máte možnost projít si spoiler. V nìm jsou všechny úkoly øešeny hned ve dvou 
+provedeních - slovnì a audiovizuálnì. /n
+/spoiler/
+	V této èásti každé lekce se budou nacházet postupy a triky ke splnìní 
+jednotlivých praktických úkolù. Doporuèuji po nich sáhnout až potom, co si 
+opravdu nebudete vìdìt rady. /n
+	Nápovìdy budou buï ve formì detailních popisù, obrázkù a nebo videí. 
+Zvolená forma bude záviset na obtížnosti vyžadovaných úkonù.
+/qa/
+	Jelikož jsou studenti neomezeným zdrojem otázek, nachází se v tomto programu místo i pro Vás, kdo jej užíváte. Pokud Vám bude nìjaká informace chybìt, mùžete jí doplnit do této sekce. V ideálním pøípadì by tak mìlo být docíleno kostantního zlepšování obsahu. Pokud tedy odpovìï na svou otázku získáte, neváhejte a sdílejte ji s budoucím uživatelem! /n
+
